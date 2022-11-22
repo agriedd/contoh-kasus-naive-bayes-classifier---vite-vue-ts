@@ -29,5 +29,6 @@ export interface Tahapan3Type {
 	label: string,
 	class_name: string,
 	p_x_y: number,
-	p_y: PY
+	p_y: PY,
+	result: number
 }

@@ -43,7 +43,7 @@ const emits = defineEmits([])
 							= {{ item.p_x_y.toFixed(3) }} &times;  {{ item.p_y[0] }} / {{ item.p_y[1] }} 
 						</div>
 						<div>
-							= {{ item.p_y[2].toFixed(5) }}
+							= {{ item.result.toFixed(5) }}
 						</div>
 						<br>
 					</td>

@@ -113,7 +113,8 @@ const p_x_by_yi_times_p_yi = computed(()=>{
 				p_y,
 				count,
 				p_y/count
-			]
+			],
+			result: y.result * (p_y/count)
 		})
 	})
 	return items;

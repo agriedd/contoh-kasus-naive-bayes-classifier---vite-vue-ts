@@ -30,7 +30,7 @@ const emits = defineEmits([])
 					</td>
 				</tr>
 			</tbody>
-			<tbody v-if="data[0].p_y[2] > data[1].p_y[2]">
+			<tbody v-if="data[0].result > data[1].result">
 				<tr class="text-sm">
 					<td>
 					</td>
