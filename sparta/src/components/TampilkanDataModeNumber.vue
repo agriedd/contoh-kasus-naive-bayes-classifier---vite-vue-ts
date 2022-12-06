@@ -83,10 +83,10 @@ const isActiveRow = (row: number) => {
 							{{ item.gender != 'Laki-Laki' ? 1 : 0 }}
 						</td>
 						<td class="p-2 text-xs">
-							{{ item.gender == 'Dalam Kota' ? 1 : 0 }}
+							{{ item.school_city == 'Dalam Kota' ? 1 : 0 }}
 						</td>
 						<td class="p-2 text-xs">
-							{{ item.gender != 'Dalam Kota' ? 1 : 0 }}
+							{{ item.school_city != 'Dalam Kota' ? 1 : 0 }}
 						</td>
 						<td class="p-2 text-xs">
 							{{ item.type_sekolah == "SMA" ? 1 : 0 }}

@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue';
-import TampilanProses from './components/TampilanProses.vue';
 import TampilkanDataMode from './components/TampilkanDataMode.vue';
 import TampilkanDataModeNumber from './components/TampilkanDataModeNumber.vue';
 import data from './models/data';

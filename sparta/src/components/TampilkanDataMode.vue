@@ -61,7 +61,7 @@ const isActiveRow = (row: number) => {
 						<td class="p-2 text-xs">
 							{{ i+1 }}
 						</td>
-						<td class="p-2 text-xs">
+						<td class="p-2 text-xs whitespace-nowrap">
 							{{ item.nama }}
 						</td>
 						<td class="p-2 text-xs">
